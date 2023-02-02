@@ -1,0 +1,49 @@
+
+body{font-family: 'Roboto', sans-serif;}
+
+.imagenUno{
+    width: 1490px;
+    height: 450px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+    padding: 30px;
+}
+
+p{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+.navBar{
+    padding : 10px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.navbEspecial{
+    padding : 10px;
+    margin: 15px;
+}
+
+.cardPromo{
+    text-align: center;
+    padding: 0px;
+    margin:37px
+}
+
+.contIcono{
+    position: relative;    
+    
+    color: rgb(19, 95, 237);
+    
+}
+
+.imGnav{
+    margin: 40px;
+}
