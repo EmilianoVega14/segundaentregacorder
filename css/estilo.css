@@ -1,50 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-body{font-family: 'Roboto', sans-serif;}
-
-.imagenUno{
+.imagenUno {
     width: 1490px;
     height: 450px;
 }
 
-h1{
+h1 {
     font-size: 35px;
     text-align: center;
     margin: 50px;
     padding: 30px;
 }
 
-p{
+p {
     text-align: center;
 }
 
-h3{
+h3 {
     text-align: center;
 }
-.navBar{
-    padding : 10px;
+
+.navBar {
+    padding: 10px;
     margin: 15px;
     font-size: 20px;
 }
 
-.navbEspecial{
-    padding : 10px;
+.navbEspecial {
+    padding: 10px;
     margin: 15px;
 }
 
-.cardPromo{
+.cardPromo {
     text-align: center;
     padding: 0px;
-    margin:37px
+    margin: 37px
 }
 
 
-.imGnav{
+.imGnav {
     margin: 40px;
 }
 
-svg{ 
+svg {
     width: 55px;
-    
+
 }
 
 .carousel-inner img {
@@ -52,13 +54,28 @@ svg{
     max-height: 500px;
 }
 
-.carousel-inner{
- height: 500px;
+.carousel-inner {
+    height: 500px;
 }
 
-footer h6{
+footer h6 {
     font-size: 15px;
     text-align: center;
     margin: 20px;
     padding: 20px;
+}
+
+/* aca metemos pagina calcula*/
+
+.subTcal {
+    text-align: center;
+    color: rgb(70, 137, 232);
+    margin: 10px;
+
+}
+
+.titCal {
+    text-align: center;
+    margin: 0px;
+    font-weight: bold;
 }
