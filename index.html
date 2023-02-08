@@ -17,13 +17,13 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- ESTILO CSS -->
 
     <link rel="stylesheet" href="css/estilo.css">
 </head>
 
-<body>
+<body class="container-fluid">
 
     <!-- ACA ESTÁ LA NAVBAR -->
 
@@ -41,7 +41,7 @@
                 <ul class="navbar-nav navBar">
 
                     <li class="nav-item  navBar">
-                        <a class="nav-link" aria-current="page" href="./html/calcula.html">Calcula</a>
+                        <a class="nav-link" href="./html/calcula.html">Calcula</a>
                     </li>
 
                     <li class="nav-item navBar">
@@ -56,11 +56,11 @@
                         <a class="nav-link" href="./html/hastaahora.html">Hasta Ahora</a>
                     </li>
 
-                    <li class="nav-item navbEspecial">
+                    <li class="nav-item navBar">
                         <a class="nav-link" href="./html/publicagratis.html">Publicar Gratis</a>
                     </li>
 
-                    <li class="nav-item navbEspecial">
+                    <li class="nav-item navBar">
                         <a class="nav-link" href="./html/iniciarsesion.html">Iniciar Sesion</a>
                     </li>
 
@@ -72,6 +72,9 @@
     <!-- ACA TENEMOS EL CARROUSEL-->
 
     <div id="carouselExampleIndicators" class="carousel slide car">
+
+        <!-- aca tenemos los indicadores de en que pantalla estamos-->
+
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -80,6 +83,9 @@
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
         </div>
+
+        <!-- aca tenemos las imagenes del carrousel-->
+
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="./imagenes/carruzel-edificio.avif" class="d-block w-100" alt="foto del edificio">
@@ -92,6 +98,9 @@
                     alt="foto de casas oxford">
             </div>
         </div>
+
+        <!-- aca tenemos los indicadores para adelantar y retroceder img carrousel-->
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -118,25 +127,17 @@
 
     <!--------------------- MENSAJES--------------------->
 
-
-
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 g-4 py-5">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-4 g-4 py-5">
 
         <!--------------------- DISPONIBILIDAD --------------------->
 
 
         <div class="col d-flex align-items-start">
-            <div class="contIcono">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor"
-                    class="bi bi-calendar-date-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z" />
-                    <path
-                        d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z" />
-                </svg>
-            </div>
-            <div>
-                <h3 class="fw-bold mb-0 fs-4">DISPONIBILIDAD</h3>
+
+            <div class="porqueMsj item1">
+
+                <i class="bi bi-calendar-date-fill"></i>
+                <h3 class="fw-bold mb-0 fs-2">DISPONIBILIDAD</h3>
                 <p>Encuentra la mayor oferta de vivienda nueva en la ciudad.</p>
             </div>
         </div>
@@ -144,20 +145,10 @@
         <!--------------------- RESPALDO --------------------->
 
         <div class="col d-flex align-items-start">
-            <div>
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#cpu-fill" />
-                </svg>
 
-
-                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="50" fill="currentColor"
-                    class="bi bi-lock-fill" viewBox="0 0 16 16">
-                    <path
-                        d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2z" />
-                </svg>
-            </div>
-            <div>
-                <h3 class="fw-bold mb-0 fs-4">RESPALDO</h3>
+            <div class="porqueMsj item2">
+                <i class="bi bi-lock-fill"></i>
+                <h3 class="fw-bold mb-0 fs-2">RESPALDO</h3>
                 <p>Evaluamos exhaustivamente nuestra oferta para que compres con la mayor tranquilidad.</p>
             </div>
         </div>
@@ -167,17 +158,10 @@
 
 
         <div class="col d-flex align-items-start">
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor"
-                    class="bi bi-person-fill" viewBox="0 0 16 16">
-                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" />
-                </svg>
-                <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                    <use xlink:href="#calendar3" />
-                </svg>
-            </div>
-            <div>
-                <h3 class="fw-bold mb-0 fs-4">ASISTENCIA</h3>
+
+            <div class="porqueMsj item3">
+                <i class="bi bi-person-fill"></i>
+                <h3 class="fw-bold mb-0 fs-2">ASISTENCIA</h3>
                 <p>Te damos toda la informacíon de nuestros expertos y aliados para que tomes la mejor desicíon.</p>
             </div>
         </div>
@@ -185,20 +169,10 @@
         <!--------------------- GARANTIA --------------------->
 
         <div class="col d-flex align-items-start">
-            <!--  <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                <use xlink:href="#speedometer2" />
-            </svg> -->
-            <div>
-                <div>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
-                        class="bi bi-hand-thumbs-up-fill contIcono" viewBox="0 0 16 16">
-                        <path
-                            d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z" />
-                    </svg>
 
-                </div>
-
-                <h3 class="fw-bold mb-0 fs-4">GARANTIA</h3>
+            <div class="porqueMsj item4">
+                <i class="bi bi-hand-thumbs-up-fill"></i>
+                <h3 class="fw-bold mb-0 fs-2">GARANTIA</h3>
                 <p>Garantizamos que tus inmuebles se renten más Rápido.</p>
             </div>
         </div>
@@ -210,43 +184,66 @@
     <section>
         <!----------- CARD NUMERO 1 ------------->
         <div class="row">
-            <div class="card col-xl-3x col-md-6 col-sm-12 cardPromo" style="width: 18rem;">
-                <img src="./imagenes/carruzel-edificio.avif" class="card-img" alt="...">
+
+            <div class="card col-xl-3x col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
+                <img src="./imagenes/carruzel-edificio.avif" class="card-img" alt="carruzel-edificio">
                 <div class="card-body">
-                    <h5 class="card-title"> ¿Qué necesito Para comprar? </h5>
-                    <a href="#" class="btn btn-primary">Guía de Compra</a>
+                    <h4 class="card-title"> ¿Qué necesito Para comprar? </h4>
+                    <a href="#" class="btn btn-primary fs-4 m-4 ">Guía de Compra</a>
                 </div>
             </div>
 
             <!----------- CARD NUMERO 2 ------------>
 
-            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 18rem;">
+            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
                 <img src="./imagenes/carruzel-ventanas-techo.avif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">¿Qué voy a necesitar para rentar?</h5>
-                    <a href="#" class="btn btn-primary">Guía de Renta</a>
+                    <h4 class="card-title">¿Qué voy a necesitar para rentar?</h4>
+                    <a href="#" class="btn btn-primary fs-4 m-4">Guía de Renta</a>
                 </div>
             </div>
 
             <!------------- CARD NUMERO 3 ------------->
 
 
-            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 18rem;">
+            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
                 <img src="./imagenes/carruzel-edificio.avif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title"> ¿Cúales son los Requisitos para vender? </h5>
-                    <a href="#" class="btn btn-primary">Guía de Venta</a>
+                    <h4 class="card-title"> ¿Cúales son los Requisitos para vender? </h4>
+                    <a href="#" class="btn btn-primary fs-4 m-1">Guía de Venta</a>
                 </div>
             </div>
 
             <!------------- CARD NUMERO 4 ------------->
 
 
-            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 18rem;">
+            <div class="card col-xl-3 col-md-6 col-sm-12 cardPromo" style="width: 28rem;">
                 <img src="./imagenes/carruzel-edificio.avif" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title"> ¿Que necesito Para registrate? </h5>
-                    <a href="#" class="btn btn-primary">Guía de Registro</a>
+                    <h4 class="card-title"> ¿Que necesito Para registrate? </h4>
+                    <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section >
+        <div class="d-flex justify-content-center ">
+            
+            <div class="card col-xl-6 col-sm-12 cardPromo text-start" style="width: 45%;">
+                <img src="./imagenes/carruzel-edificio.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-start"> Tu vivienda nueva para desarrolladores </h3>
+                    <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
+                </div>
+            </div>
+
+            <div class="card col-xl-3 col-sm-12 cardPromo text-start" style="width: 45%;">
+                <img src="./imagenes/carruzel-edificio.avif" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h3 class="card-title text-start"> ¿Que necesito Para registrate? </h3>
+                    <a href="#" class="btn btn-primary fs-4 m-4">Guía de Registro</a>
                 </div>
             </div>
         </div>
