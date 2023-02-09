@@ -1,4 +1,4 @@
-/*------- INDEX ------*/
+/* ESTILOS GENERALES */
 
 html {
     font-size: 62.5%;
@@ -11,10 +11,20 @@ body {
 
 }
 
-.imagenUno {
-    width: 14.90rem;
-    height: 45rem;
+/* ESTILOS NAVBAR */
+
+.imGnav {
+    margin-top: 1rem;
+    margin-bottom: 3.1rem;
 }
+
+.navBar {
+    padding: 1rem;
+    margin: 0.6rem 3rem 1rem 3rem;
+    font-size: 1.8rem;
+}
+
+/* ESTILOS HEADER*/
 
 header h1 {
     font-size: 3.5rem;
@@ -24,21 +34,32 @@ header h1 {
     margin-top: 6rem;
 }
 
-div div p {
+/* ESTILOS CARROUSEL*/
+
+footer h6 {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* ESTILOS SERVICIOS */
+
+.porqueMsj {
+    text-align: justify;
+    margin-top: 4.5rem;
+    margin-bottom: 13rem;
+}
+
+.parrServ {
     text-align: center;
     font-size: 1.8rem;
     margin-top: 1.2rem;
 }
 
-div div h3 {
+.hdosServ {
     text-align: center;
     font-size: 2rem;
-}
-
-.navBar {
-    padding: 1rem;
-    margin: 0.6rem 3rem 1rem 3rem;
-    font-size: 1.8rem;
 }
 
 i {
@@ -49,10 +70,8 @@ i {
     margin-bottom: 3rem;
 }
 
-.navbEspecial {
-    padding: 10px;
-    margin: 15px;
-}
+
+/* ESTILOS CARDS LINEA DE 4 Y LINEA DE 2 */
 
 .cardPromo {
     text-align: center;
@@ -60,49 +79,30 @@ i {
     margin: 37px
 }
 
-
-
-
-
-.imGnav {
-    margin-top: 1rem;
-    margin-bottom: 3.1rem;
+div div img {
+    height: 45rem;
 }
 
-svg {
-    width: 55px;
+/*ESTILOS CARD LINEA DE 4*/
 
-}
-
-.carousel-inner img {
-    width: 100%;
-    max-height: 500px;
-}
-
-.carousel-inner {
-    height: 500px;
-}
-
-footer h6 {
-    font-size: 15px;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+section div img {
+    width: 16rem;
+    height: 25rem;
 }
 
 
-/* aca metemos pagina calcula*/
+
+/* ESTILOS DESARROLLOS HTML */
 
 .subTcal {
     text-align: center;
     color: rgb(70, 137, 232);
-    margin: 10px;
+    margin: 0.5rem;
 
 }
 
 .titCal {
     text-align: center;
-    margin: 0px;
     font-weight: bold;
 }
 
@@ -118,19 +118,58 @@ footer h6 {
     width: 33pc;
 }
 
-.porqueMsj {
+/* ESTILOS CARD DESARROLLOS */
+
+
+.carDdesa {
+    text-align: center;
+    padding: 0px;
+    margin: 4rem;
+
+}
+
+.preCio {
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin: 0.5rem;
+}
+
+.tiPs {
+    justify-content: center;
+}
+
+
+.titTips {
+    margin-bottom: 4.5rem;
+    margin-top: 10rem;
+}
+
+
+.cardTips {
+
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+/* ESTILOS DE HIPOTECA HTML */
+
+.headHipo {
+    text-align: center;
+}
+
+.nuestProce {
+
+    padding: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.titNuepro {
+    margin-bottom: 4.5rem;
+    margin-top: 10rem;
+}
+
+.tideCredhipo{ /* tipos de creditos hipotecarios*/
     text-align: justify;
-    margin-top: 4.5rem;
-    margin-bottom: 13rem;
-}
-
-
-
-div div img {
-    height: 45rem;
-}
-
-section div img {
-    width: 16rem;
-    height: 25rem;
+    margin-top: 15rem;
+    margin-bottom: 6rem;
 }
