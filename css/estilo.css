@@ -107,10 +107,10 @@ section div img {
 }
 
 .calH1 {
-    font-size: 35px;
+    font-size: 3.5rem;
     text-align: center;
-    margin: 20px;
-    padding: 10px;
+    margin: 2rem;
+    padding: 1rem;
 }
 
 .sectionA {
@@ -161,6 +161,7 @@ section div img {
 
     padding: 1.3rem;
     margin-bottom: 1rem;
+    border: black solid 1px;
 }
 
 .titNuepro {
@@ -168,8 +169,88 @@ section div img {
     margin-top: 10rem;
 }
 
-.tideCredhipo{ /* tipos de creditos hipotecarios*/
+.tideCredhipo {
+    /* tipos de creditos hipotecarios*/
     text-align: justify;
     margin-top: 15rem;
     margin-bottom: 6rem;
+}
+
+
+/* ACA VAN LOS ESTILOS PARA BLOG.HTML */
+
+.titBlog {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.5rem;
+    margin: 2rem;
+    padding: 1rem;
+
+}
+
+.subtBlog {
+    text-align: center;
+    color: rgb(70, 137, 232);
+    margin: 0.5rem;
+}
+
+.titNotblo {
+    text-align: left;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    margin-top: 7rem;
+    padding: 1.5rem;
+}
+
+.imgBaldelaño {
+    width: 100rem;
+    height: 50rem;
+    padding: 1.5rem;
+    margin: 3rem;
+
+
+}
+
+.subtNotblog {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 2.1rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.parraNotblog {
+    text-align: justify;
+    font-size: 1.9rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* ACA VAN LOS ESTILOS PARA PUBLICAR GRATIS.HTML */
+
+.tidePubligra {
+    /* tipos de creditos hipotecarios*/
+    text-align: center;
+    font-weight: bold;
+    margin-top: 3.7rem;
+    margin-bottom: 2.5rem;
+    }
+
+.subtPubligra{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    color: rgb(70, 137, 232);
+}    
+.imgPublica{
+    width: 50%;
+    display: block;
+    margin: auto;
+    
+    
+    
 }

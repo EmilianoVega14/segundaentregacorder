@@ -17,7 +17,7 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!-- ESTILO CSS -->
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
@@ -25,55 +25,102 @@
 <body class="container-fluid">
 
     <!-- ACA ESTA LA NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="imGnav" href="../index.html">
+                    <img src="../imagenes/logo--pelado.png" alt="logo--pelado" width="250" height="65">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="imGnav" href="../index.html">
-                <img src="../imagenes/logo--pelado.png" alt="logo--pelado" width="250" height="65">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav navBar">
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav navBar">
+                        <li class="nav-item  navBar">
+                            <a class="nav-link" href="desarrollos.html">Desarrollos</a>
+                        </li>
 
-                    <li class="nav-item  navBar">
-                        <a class="nav-link" href="desarrollos.html">Desarrollos</a>
-                    </li>
+                        <li class="nav-item navBar">
+                            <a class="nav-link" href="hipoteca.html">Hipotecas</a>
+                        </li>
 
-                    <li class="nav-item navBar">
-                        <a class="nav-link" href="hipoteca.html">Hipotecas</a>
-                    </li>
+                        <li class="nav-item navBar">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
 
-                    <li class="nav-item navBar">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
+                        <li class="nav-item navBar">
+                            <a class="nav-link" href="publicagratis.html">Publicar Gratis</a>
+                        </li>
 
-                    <li class="nav-item navBar">
-                        <a class="nav-link" href="hastaahora.html">Hasta Ahora</a>
-                    </li>
+                        <li class="nav-item navBar">
+                            <a class="nav-link" href="iniciarsesion.html">Iniciar Sesion</a>
+                        </li>
 
-                    <li class="nav-item navBar">
-                        <a class="nav-link" href="publicagratis.html">Publicar Gratis</a>
-                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-                    <li class="nav-item navBar">
-                        <a class="nav-link" href="iniciarsesion.html">Iniciar Sesion</a>
-                    </li>
+        <h1 class="tidePubligra calH1">
+            <!-- ACA VA UNA ANIMACION -->
+            RENTA O VENDE TU INMUEBLE DE MANERA RAPIDA Y SENCILLA
+        </h1>
+        <h2 class="subtPubligra fw-bold">
+            PUBLICA GRATIS EN EL PORTAL LIDER DEL MERCADO INMOBILIARIO
+        </h2>
+    </header>
 
-                </ul>
+    <section>
+        <img class="imgPublica" src="../imagenes/agentes-inmobiliarios-mujeres-cuentan-habilidades-1.webp" alt="agentesinmobiliarios">
+    </section>
+
+
+
+    <section>
+        <!--------------------- ADQUISICIÓN --------------------->
+
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-4 g-4 py-5">
+
+            <div class="col d-flex justify-content-center m-5 t-53">
+
+                <div class="tidePubligra">
+
+                    <i class="bi bi-check2-all"></i>
+                    <h2 class="fw-bold mb-0 fs-2 hdosServ fw-bold">2.9 MILLONES</h2>
+                    <p class="parrServ">De personas ingresan por mes en busca de su hogar.
+                    </p>
+                </div>
+            </div>
+
+            <!--------------------- REFINANCIAMIENTO --------------------->
+
+            <div class="col d-flex justify-content-center m-5">
+
+                <div class="tidePubligra">
+                    <i class="bi bi-slash-square"></i>
+                    <h2 class="fw-bold mb-0 fs-2 hdosServ fw-bold">542 MIL</h2>
+                    <p class="parrServ">Consultas mensuales reciben nuestros avisos.</p>
+                </div>
+            </div>
+
+
+            <!--------------------- CONSTRUCCION O REMODELACION--------------------->
+
+
+            <div class="col d-flex justify-content-center m-5">
+
+                <div class="tidePubligra">
+                    <i class="bi bi-cone-striped"></i>
+                    <h2 class="fw-bold mb-0 fs-2 hdosServ fw-bold">+ 5 MIL</h2>
+                    <p class="parrServ">Dueños rentan y publican sus inmuebles en nuestro portal.</p>
+                </div>
             </div>
         </div>
-    </nav>
-
-    <div>
-        <h1>
-            PUBLICAR GRATIS
-        </h1>
-    </div>
-
+    </section>
+   
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
