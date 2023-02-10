@@ -47,7 +47,7 @@ footer h6 {
 
 .porqueMsj {
     text-align: justify;
-    margin-top: 4.5rem;
+    margin-top: 4rem;
     margin-bottom: 13rem;
 }
 
@@ -76,7 +76,7 @@ i {
 .cardPromo {
     text-align: center;
     padding: 0px;
-    margin: 37px
+    margin: 3.7rem 3rem 6rem 3rem;
 }
 
 div div img {
@@ -106,12 +106,6 @@ section div img {
     font-weight: bold;
 }
 
-.calH1 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin: 2rem;
-    padding: 1rem;
-}
 
 .sectionA {
     height: 30pc;
@@ -138,10 +132,15 @@ section div img {
     justify-content: center;
 }
 
+.tipsCompradesa{ 
+    margin-left: 3rem;
+
+}
 
 .titTips {
     margin-bottom: 4.5rem;
     margin-top: 10rem;
+    
 }
 
 
@@ -149,6 +148,7 @@ section div img {
 
     padding: 1.3rem;
     margin-bottom: 1rem;
+   
 }
 
 /* ESTILOS DE HIPOTECA HTML */
@@ -176,6 +176,9 @@ section div img {
     margin-bottom: 6rem;
 }
 
+.nueprocHipoade{
+    margin-left: 3rem;
+}
 
 /* ACA VAN LOS ESTILOS PARA BLOG.HTML */
 
@@ -205,10 +208,12 @@ section div img {
 }
 
 .imgBaldelaño {
-    width: 100rem;
-    height: 50rem;
-    padding: 1.5rem;
-    margin: 3rem;
+    width: 85%;
+    height: 85%;
+    
+    display: block;
+    margin: auto;
+    margin-bottom: 5rem;
 
 
 }
@@ -232,11 +237,12 @@ section div img {
 /* ACA VAN LOS ESTILOS PARA PUBLICAR GRATIS.HTML */
 
 .tidePubligra {
-    /* tipos de creditos hipotecarios*/
+   
     text-align: center;
     font-weight: bold;
-    margin-top: 3.7rem;
-    margin-bottom: 2.5rem;
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
     }
 
 .subtPubligra{
@@ -250,7 +256,5 @@ section div img {
     width: 50%;
     display: block;
     margin: auto;
-    
-    
     
 }
