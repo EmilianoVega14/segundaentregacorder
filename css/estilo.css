@@ -253,7 +253,8 @@ section div img {
     color: rgb(70, 137, 232);
 }    
 .imgPublica{
-    width: 50%;
+    width: 75%;
+    height: 50%;
     display: block;
     margin: auto;
     
