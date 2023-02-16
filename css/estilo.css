@@ -1,261 +1,192 @@
+/* AQUI VA LA FUENTE DE GOOGLE*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 /* ESTILOS GENERALES */
-
 html {
-    font-size: 62.5%;
-
+  font-size: 62.5%;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
-
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
 }
 
-/* ESTILOS NAVBAR */
-
+/* NAV BAR */
 .imGnav {
-    margin-top: 1rem;
-    margin-bottom: 3.1rem;
+  margin-top: 1rem;
+  margin-bottom: 3.1rem;
 }
 
 .navBar {
-    padding: 1rem;
-    margin: 0.6rem 3rem 1rem 3rem;
-    font-size: 1.8rem;
+  padding: 1rem;
+  margin: 0.6rem 3rem 1rem 3rem;
+  font-size: 2.2rem;
 }
 
-/* ESTILOS HEADER*/
-
-header h1 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin: 2rem;
-    padding: 2rem;
-    margin-top: 6rem;
+/* ACA VA EL ESTILO DE LOS H1 y H2 */
+.titulosh1Global {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5rem;
 }
 
-/* ESTILOS CARROUSEL*/
-
-footer h6 {
-    font-size: 15px;
-    text-align: center;
-    margin: 20px;
-    padding: 20px;
+.subtitulosh2Global {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(70, 137, 232);
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
 }
 
-/* ESTILOS SERVICIOS */
-
-.porqueMsj {
-    text-align: justify;
-    margin-top: 4rem;
-    margin-bottom: 13rem;
+/* ACA VAN LOS ESTILOS DE LAS CARD DE SERVICIOS
+DISPONIBILIDAD - RESPALDO - ASISTENCIA - GARANTIA */
+/* TAMBIEN SE UTILIZAN PARA DAR ESTILO A LAS CARD DE LA PAGINA HIPOTECA 
+( ADQUISICION - REFINANCIAMIENTO - CONSTRUCCION - LIQUIDEZ ) */
+/* TAMBIEN PARA PUBLICAGRATIS= ( 2.9 MILLONES - 542MIL - + 5MIL )*/
+.cardmotivosTuvivienda {
+  text-align: justify;
+  margin-top: 4rem;
+  margin-bottom: 13rem;
 }
 
-.parrServ {
-    text-align: center;
-    font-size: 1.8rem;
-    margin-top: 1.2rem;
-}
-
-.hdosServ {
-    text-align: center;
-    font-size: 2rem;
+.parrafomotivosTuvivienda {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 1.2rem;
 }
 
 i {
-    font-size: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3rem;
+  font-size: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
 }
 
+.hdosServ {
+  text-align: center;
+  font-size: 2rem;
+}
 
+/* HASTA ACA V*/
 /* ESTILOS CARDS LINEA DE 4 Y LINEA DE 2 */
-
 .cardPromo {
-    text-align: center;
-    padding: 0px;
-    margin: 3.7rem 3rem 6rem 3rem;
+  text-align: center;
+  padding: 0px;
+  margin: 3.7rem 3rem 6rem 3rem;
 }
 
 div div img {
-    height: 45rem;
+  height: 45rem;
 }
 
 /*ESTILOS CARD LINEA DE 4*/
-
 section div img {
-    width: 16rem;
-    height: 25rem;
-}
-
-
-
-/* ESTILOS DESARROLLOS HTML */
-
-.subTcal {
-    text-align: center;
-    color: rgb(70, 137, 232);
-    margin: 0.5rem;
-
-}
-
-.titCal {
-    text-align: center;
-    font-weight: bold;
-}
-
-
-.sectionA {
-    height: 30pc;
-    width: 33pc;
+  width: 16rem;
+  height: 25rem;
 }
 
 /* ESTILOS CARD DESARROLLOS */
-
-
 .carDdesa {
-    text-align: center;
-    padding: 0px;
-    margin: 4rem;
-
+  text-align: center;
+  padding: 0px;
+  margin: 4rem;
 }
 
 .preCio {
-    font-weight: bold;
-    font-size: 2.2rem;
-    margin: 0.5rem;
+  font-weight: bold;
+  font-size: 2.2rem;
+  margin: 0.5rem;
 }
 
 .tiPs {
-    justify-content: center;
+  justify-content: center;
 }
 
-.tipsCompradesa{ 
-    margin-left: 3rem;
-
+.tipsCompradesa {
+  margin-left: 3rem;
 }
 
 .titTips {
-    margin-bottom: 4.5rem;
-    margin-top: 10rem;
-    
+  margin-bottom: 4.5rem;
+  margin-top: 10rem;
 }
 
-
 .cardTips {
-
-    padding: 1.3rem;
-    margin-bottom: 1rem;
-   
+  padding: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 /* ESTILOS DE HIPOTECA HTML */
-
 .headHipo {
-    text-align: center;
+  text-align: center;
 }
 
 .nuestProce {
-
-    padding: 1.3rem;
-    margin-bottom: 1rem;
-    border: black solid 1px;
+  padding: 1rem;
+  margin: auto;
 }
 
 .titNuepro {
-    margin-bottom: 4.5rem;
-    margin-top: 10rem;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
 }
 
-.tideCredhipo {
-    /* tipos de creditos hipotecarios*/
-    text-align: justify;
-    margin-top: 15rem;
-    margin-bottom: 6rem;
-}
-
-.nueprocHipoade{
-    margin-left: 3rem;
+.nueprocHipoade {
+  margin: 3rem;
 }
 
 /* ACA VAN LOS ESTILOS PARA BLOG.HTML */
-
-.titBlog {
-    text-align: center;
-    font-weight: bold;
-    font-size: 3.5rem;
-    margin: 2rem;
-    padding: 1rem;
-
+/* ESTILOS DE LOS COMPONENTES DE LAS NOTICIAS*/
+.imagenesnoticiasBlog {
+  width: 85%;
+  height: 85%;
+  display: block;
+  margin: auto;
+  margin-bottom: 7rem;
 }
 
-.subtBlog {
-    text-align: center;
-    color: rgb(70, 137, 232);
-    margin: 0.5rem;
+.titulonoticiasBlog {
+  text-align: justify;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  font-weight: bolder;
+  font-size: 3.2rem;
+  margin: 7rem;
+  padding: 1.5rem;
 }
 
-.titNotblo {
-    text-align: left;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    font-weight: bolder;
-    font-size: 3.2rem;
-    margin-top: 7rem;
-    padding: 1.5rem;
+.subtitulonoticiasBlog {
+  text-align: justify;
+  font-weight: bold;
+  font-size: 2.1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
-.imgBaldelaño {
-    width: 85%;
-    height: 85%;
-    
-    display: block;
-    margin: auto;
-    margin-bottom: 5rem;
-
-
+.parrafonoticiasBlog {
+  text-align: justify;
+  font-size: 1.9rem;
+  margin-top: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
 }
 
-.subtNotblog {
-    text-align: justify;
-    font-weight: bold;
-    font-size: 2.1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+/* ACA VAN LOS ESTILOS PARA PUBLICAGRATIS.HTML */
+/* IMAGEN DE PORTADA DE PAGINA*/
+.imagenportadaPublicagratis {
+  width: 75%;
+  height: 50%;
+  display: block;
+  margin: auto;
 }
 
-.parraNotblog {
-    text-align: justify;
-    font-size: 1.9rem;
-    margin-top: 3rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+footer h6 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
 }
 
-/* ACA VAN LOS ESTILOS PARA PUBLICAR GRATIS.HTML */
-
-.tidePubligra {
-   
-    text-align: center;
-    font-weight: bold;
-    margin-top: 6rem;
-    margin-bottom: 3rem;
-    margin-left: 3rem;
-    }
-
-.subtPubligra{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 7rem;
-    color: rgb(70, 137, 232);
-}    
-.imgPublica{
-    width: 75%;
-    height: 50%;
-    display: block;
-    margin: auto;
-    
-}
+/*# sourceMappingURL=estilo.css.map */
