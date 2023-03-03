@@ -1,8 +1,31 @@
-footer {
-	h6 {
-		font-size: 1.5rem;
-		text-align: center;
-		margin: 20px;
-		padding: 20px;
-	}
+.stilofooter {
+	margin-left: 4rem;
+	margin-right: 4rem;
+}
+@media (max-width:600px) {
+    .stilofooter {
+        font-size: 0.9rem;
+		margin: 0.5rem;
+     
+    }
+}
+@media (min-width:533px) and (max-width:993px){
+.stilofooter {
+	font-size: 1.5rem;
+	margin: 1.5rem;
+}
+}
+.botonWhat {
+	position: fixed;
+	width: 5rem;
+	height: 5rem;
+	bottom: 3rem;
+	right: 3rem;
+	background-color: #25d366;
+	color: rgb(247, 244, 244);
+	border-radius: 5rem;
+	text-align: center;
+	font-size: 3rem;
+	z-index: 100;
+
 }

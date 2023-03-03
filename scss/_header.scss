@@ -1,8 +1,45 @@
+/* ACA COMIENZA EL HEADER.CSS*/
+
+/* MIXIN */
+@mixin titulosh1 {
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4rem;
+    color: rgb(252, 252, 252);
+}
+.titulosh1Global {
+    @include titulosh1;
+}
+
+@media (max-width:800px) {
+    .titulosh1Global {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+}
+
+
+@mixin subtitulosh2 {
+    font-size: 3rem;
+    text-align: center;
+    color: $color_subtitulo;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
 /* NAV BAR */
 
 .imGnav {
     margin-top: 1rem;
     margin-bottom: 3.1rem;
+}
+
+@media (max-width:700px) {
+    .imGnav {
+        margin: 0rem 1rem 0.6rem 1rem
+    }
 }
 
 .navBar {
@@ -11,20 +48,59 @@
     font-size: 2.2rem;
 }
 
+
 /* ACA VA EL ESTILO DE LOS H1 y H2 */
 
-.titulosh1Global {
-    font-size: 3.5rem;
-    text-align: center;
-    font-weight: bold;
-    margin-top: 5rem;
+.divTitulo h1 {
+
+    margin-top: 13rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: rgb(70, 137, 232);
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px
 }
 
-.subtitulosh2Global {
-    font-size: 2rem;
-    text-align: center;
-    color: $color_subtitulo;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+@media (max-width:800px) {
+    .divTitulo h1 {
+        margin: 2rem
+    }
 }
+
+.divTitulo2index p {
+    /* MARGENES*/
+    margin-top: 2.5rem;
+    margin-bottom: 0rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    /* ESTILOS*/
+    background-color: rgb(70, 137, 232);
+    border-radius: 5px;
+    height: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* PARAFFO*/
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:800px) {
+    .divTitulo2index p {
+        margin:2rem
+    }
+}
+@media (max-width:600px) {
+    .titulosh2Global{
+     font-size: 10rem;
+    }
+}
+.subtitulosh2Global {
+    @include subtitulosh2;
+}
+/* ACA TERMINA EL HEADER.SCSS*/
